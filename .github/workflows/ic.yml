@@ -16,4 +16,4 @@ jobs:
     - name: Install surge
       run: npm install -g surge
     - name: Deploy to enriqueperezmustafa@gmail.com
-      run: surge ./_build/ EnriqueMustafa2.surge.sh --token ${{ 33bea92a2059c8c2058c95bf4ff2e43e }}   
+      run: surge ./_build/ EnriqueMustafa2.surge.sh --token ${{ secrets.SURGE_TOKEN }}   
